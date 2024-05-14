@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Войти - Моторные лодки</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <input type="checkbox" id="toggle-menu">
+    <label for="toggle-menu" class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Логотип">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="katalog.html">Каталог</a></li>
+                <li><a href="login.html">Войти</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="login">
+        <div class="login-container">
+            <h2>Войти</h2>
+            <form action="#" method="post">
+                <label for="username">Имя пользователя:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Войти</button>
+            </form>
+            <p>Еще не зарегистрированы? <a href="registration.html" class="register-link">Зарегистрируйтесь здесь</a>.</p>
+        </div>
+    </section>
+    <p></p>
+
+    <footer>
+        <p>&copy; 2024 Моторные лодки. Все права защищены.</p>
+    </footer>
+</body>
+</html>
+
